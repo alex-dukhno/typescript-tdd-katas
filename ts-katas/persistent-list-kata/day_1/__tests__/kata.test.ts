@@ -1,7 +1,7 @@
 import {List} from '../kata';
 
 describe('persistent list', () => {
-    let empty: List;
+    let empty: List<number>;
 
     beforeEach(() => {
         empty = List.empty();

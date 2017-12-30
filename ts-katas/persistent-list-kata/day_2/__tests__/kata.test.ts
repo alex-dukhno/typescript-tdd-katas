@@ -1,7 +1,7 @@
 import {List} from '../kata';
 
 describe('persistent list', () => {
-    const empty: List = List.empty();
+    const empty: List<number> = List.empty();
 
     test('empty list', () => {
         expect(empty.toString()).toBe('[]');
